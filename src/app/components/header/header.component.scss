@@ -1,4 +1,17 @@
+.header-toolbar{
+  background-color:  #005237;
+  color: white;
+
+}
+a {
+  color: white;
+  font-size: 20px;
+}
 .spacer {
     flex: 1 1 auto;
   }
-  
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}

@@ -1,6 +1,54 @@
 <mat-toolbar color="accent" class="footer-toolbar">
-  <span>&copy; 2025 Liguey. Tous droits réservés.</span>
-  <span class="spacer"></span>
-  <button mat-button>Mentions légales</button>
-  <button mat-button>Politique de confidentialité</button>
+  <div class="container">
+    <div class="row">
+      <!-- Section Qui sommes-nous -->
+      <div class="footer-col">
+        <h6>Qui sommes-nous ?</h6>
+        <div class="presentation">
+          <p>
+            Liguey Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Ipsam, tenetur. Temporibus voluptas dolorum, animi adipisci
+            consequuntur modi expedita fugiat, officiis, aperiam dolor minima.
+            Unde ducimus maxime modi reiciendis iure eveniet?
+          </p>
+        </div>
+        <p class="terms">
+          <a href="/terms-and-conditions">Conditions générales d'utilisation</a>
+        </p>
+        <p class="terms">
+          <a href="/terms-and-conditions">Politiques de confidentialité</a>
+        </p>
+      </div>
+
+      <!-- Section Contact -->
+      <div class="footer-col">
+        <h6>Contactez-nous !</h6>
+        <p><mat-icon class="icons">location_on</mat-icon> Dakar, Sénégal</p>
+        <p><mat-icon class="icons">mail_outline</mat-icon> Liguey&#64;gmail.com</p>
+      </div>
+
+      <!-- Section Réseaux sociaux -->
+      <div class="footer-col">
+        <h6>Suivez-nous !</h6>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61559921465353" target="_blank">
+            <mat-icon class="icons">facebook</mat-icon>
+          </a>
+          <a href="https://www.tiktok.com/@rayonafrique?lang=fr" target="_blank">
+            <mat-icon class="icons">music_note</mat-icon> <!-- TikTok n'a pas d'icône officielle -->
+          </a>
+          <a href="https://twitter.com/tonCompteTwitter" target="_blank">
+            <mat-icon class="icons">photo_camera</mat-icon>
+          </a>          
+
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <p>© <a href="/">Liguey</a> {{currentYear}}.</p>
+    </div>
+  </div>
 </mat-toolbar>
